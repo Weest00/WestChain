@@ -1,0 +1,40 @@
+entrada: null
+saida: null
+
+opcoes:
+  kill_price: 150000
+
+loja:
+  item1:
+    material: "GOLD_INGOT"
+    name: "&eUma espada daora"
+    lore:
+      - ""
+      - "&7Você precisa de &6✪§&1K &7de ChainCoins para comprar este item."
+      - ""
+      - "&eClique para comprar este item."
+    slot: 10
+    price: 1000
+    command: "cash add {player} 100000"
+  item2:
+    material: "MINECART"
+    name: "&eUm beijo do West"
+    lore:
+      - ""
+      - "&7Você precisa de &6✪§&5K &7de ChainCoins para comprar este item."
+      - ""
+      - "&eClique para comprar este item."
+    slot: 11
+    price: 5000
+    command: "beijar {player}"
+  item3:
+    material: "QUARTZ"
+    name: "&eCheque de Coins"
+    lore:
+      - ""
+      - "&7Você precisa de &6✪§&10K &7de ChainCoins para comprar este item."
+      - ""
+      - "&eClique para comprar este item."
+    slot: 12
+    price: 10000
+    command: "cheque give {player} 5"
